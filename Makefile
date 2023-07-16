@@ -1,7 +1,3 @@
--# changelog generation specific
--LAST_RELEASE?=$$(git describe --tags $$(git rev-list --tags --max-count=1))
--THIS_RELEASE?=$$(git rev-parse --abbrev-ref HEAD)
-
 # Image URL to use all building/pushing image targets
 IMG ?= controller:latest
 # ENVTEST_K8S_VERSION refers to the version of kubebuilder assets to be downloaded by envtest binary.
